@@ -1,0 +1,76 @@
+
+.welcome{
+    font-size: large;
+    text-align: center;
+    background-color: aquamarine;
+    padding : 1% 1%;
+}
+
+#board {
+    display: inline-block;
+  }
+  
+.cellRow {
+    display: flex;
+  }
+  
+.cell {
+    background-color: lightgrey;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 1px;
+    border:1px solid black;
+  }
+
+  .container {
+      margin-top: 1%;
+  }
+
+  .buttonsGame {
+      display: flex;
+      flex-direction: column;
+  }
+
+  button {
+      margin-bottom: 1%;
+      width: 40%;
+      border-radius: 10px;
+  }
+
+  #launchScript {
+      margin-top: 2%;
+      background-color: aquamarine;
+  }
+
+  .gameStart {
+      background-color: red;
+      
+  }
+
+  .gameEnd {
+      background-color: green;
+  }
+
+  li{
+      background-color:lightgrey;
+      text-align: center;
+      padding: 5px 5px;
+      margin-bottom: 5px;
+      border-radius: 5px;
+      
+  }
+
+  li:hover {
+      background-color: aquamarine;
+      cursor: pointer;
+  }
+
+  select{
+      width: 20px;
+      margin-left: 10px;
+  }
